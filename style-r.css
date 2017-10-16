@@ -1,4 +1,4 @@
-@import url(https://bootswatch.com/slate/bootstrap.min.css);
+@import url(https://bootswatch.com/cosmo/bootstrap.min.css);
 
 body {
     margin: 25px;
@@ -7,12 +7,11 @@ body {
 }
 
 .jumbotron {
-    height: 50%;
+    height: 40%;
     margin: 0px;
-    border-radius: 5px;
     background-position-x: 0px;
     background-position-y: 0px;
-    background-image: url(https://raw.githubusercontent.com/joeschoeler13/project2/master/pic-header.jpg);
+    background-image: url();
     background-size: cover;
     color: white;
     text-shadow: white 50.0em 50.0em 50.0em;
