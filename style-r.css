@@ -3,6 +3,7 @@
 body {
     margin: 25px;
     color: white;
+    font-family: Arial;
 }
 
 .jumbotron {
@@ -15,4 +16,18 @@ body {
     background-size: cover;
     color: white;
     text-shadow: white 50.0em 50.0em 50.0em;
+}
+
+/* Navbar container */
+.navbar {
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+  
+/* Links inside the navbar */
+.navbar a {
+    display: block;
+    text-align: center;
 }
