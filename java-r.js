@@ -8,7 +8,7 @@ function IconNavbar() {
 }
 
 // Get the navbar
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("Navbar");
 
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
