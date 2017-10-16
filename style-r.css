@@ -1,1 +1,18 @@
 @import url(https://bootswatch.com/slate/bootstrap.min.css);
+
+body {
+    margin: 25px;
+    color: white;
+}
+
+.jumbotron {
+    height: 50%;
+    margin: 0px;
+    border-radius: 5px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-image: url(https://raw.githubusercontent.com/joeschoeler13/project2/master/pic-header.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: white 50.0em 50.0em 50.0em;
+}
