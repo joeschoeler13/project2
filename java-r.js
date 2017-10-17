@@ -1,18 +1,3 @@
-//START: sticky navbar section
-
-var navbar = document.getElementById("navbar1");
-var sticky = navbar.offsetTop;
-
-function myFunction2() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-//END: sticky navbar section
-
 //START: Responsive navbar section
 
 function myFunction() {
