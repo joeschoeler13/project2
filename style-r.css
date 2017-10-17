@@ -1,11 +1,20 @@
 @import url(https://bootswatch.com/cosmo/bootstrap.min.css);
 
+/* START: Style General*/
 body {
     margin-left: 25px;
     margin-right: 25px;
     font-family: Arial;
 }
 
+.a {
+    color: white;
+}
+
+/* END: Style General*/
+
+
+/* START: Style Jumbotron*/
 .jumbotron {
     height: 35%;
     margin: 0px;
@@ -19,13 +28,15 @@ body {
     align-items: flex-end;
 }
 
-/* Style the navbar */
+/* END: Style Jumbotron*/
+
+
+/* START: Style Navbar*/
 #navbar {
     overflow: hidden;
     background-color: #333;
   }
   
-/* Navbar links */
 #navbar a {
     float: left;
     display: block;
@@ -44,20 +55,29 @@ body {
     color: white;
 }
   
-/* Page content */
 .content {
     padding: 16px;
 }
   
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%
 }
   
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
     margin-bottom: 10px;
 }
+/* END: Style Navbar*/
+
+
+/* START: Style Map*/
+.card {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#underMap {
+    padding: 0 16px;
+}
+/* END: Style Map*/

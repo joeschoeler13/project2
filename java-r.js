@@ -18,25 +18,25 @@ function myFunction() {
 
 var locations = [
     [
-        "David Strong Building",
-        48.464801,
-         -123.313539
+        "Concardis GmbH",
+        50.138253, 
+        8.583813
     ],
     [
-    	"Cornett Building",
-        48.464246, 
-        -123.313446
+    	"Rameder Anhängerkupplungen und Autoteile GmbH",
+        50.583336, 
+        11.47229
     ],
     [
-        "Business Economics Building",
+        "University of Victoria",
         48.465256, 
         -123.312910
     ]
 ]
 
 var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 17,
-    center: new google.maps.LatLng(48.464551, -123.312732),
+    zoom: 2,
+    center: new google.maps.LatLng(15, 0),
     mapTypeId: google.maps.MapTypeId.ROADMAP
 });
 
