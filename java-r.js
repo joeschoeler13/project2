@@ -1,3 +1,5 @@
+//START: sticky navbar section
+
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
@@ -8,3 +10,5 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+//END: sticky navbar section
