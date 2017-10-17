@@ -34,7 +34,7 @@ var locations = [
     ]
 ]
 
-var map = new google.maps.Map(document.getElementById('map'), {
+var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 17,
     center: new google.maps.LatLng(48.464551, -123.312732),
     mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -55,7 +55,7 @@ for (i = 0; i < locations.length; i++) {
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
         cnt++
-        infowindow.setContent("LAT: " + locations[i][1] + /n "LONG: " + locations[i][2]);
+        infowindow.setContent("LAT: " + locations[i][1] + "LONG: " + locations[i][2]);
         infowindow.open(map, marker);
         }
     })(marker, i));
