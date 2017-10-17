@@ -1,9 +1,9 @@
 //START: sticky navbar section
 
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("navbar1");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function myFunction2() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -12,6 +12,19 @@ function myFunction() {
 }
 
 //END: sticky navbar section
+
+//START: Responsive navbar section
+
+function myFunction() {
+    var x = document.getElementById("navbar1");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+
+//END: Responsive navbar section
 
 
 //START: map and locations
@@ -23,7 +36,7 @@ var locations = [
         8.583813
     ],
     [
-    	"Rameder Anhängerkupplungen und Autoteile GmbH",
+    	"Rameder Anhaengerkupplungen und Autoteile GmbH",
         50.583336, 
         11.47229
     ],
@@ -55,7 +68,7 @@ for (i = 0; i < locations.length; i++) {
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
         cnt++
-        infowindow.setContent("LAT: " + locations[i][1] + "LONG: " + locations[i][2]);
+        infowindow.setContent(locations[i][0]);
         infowindow.open(map, marker);
         }
     })(marker, i));
