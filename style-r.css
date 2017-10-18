@@ -140,6 +140,31 @@ body {
 
 /* END: Social Media Sidenav*/
 
+/* START: Scroll Up Button*/
+
+#ScrollUpButton {
+    width: 30px;
+    height: 30px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: orange; /* Set a background color */
+    color: white; /* Text color */
+    font-size: 14px;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#ScrollUpButton:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* END: Scroll Up Button*/
+
 /* START: Map*/
 .card {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
