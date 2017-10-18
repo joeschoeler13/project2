@@ -12,7 +12,7 @@ body {
 
 
 /* START: Jumbotron*/
-.jumbotron {
+.jumbotron { 
     height: 35%;
     margin: 0px;
     background-position-x: 0px;
@@ -32,6 +32,7 @@ body {
 #navbar1 {
     overflow: hidden;
     background-color: #333;
+    z-index: 99;
   }
   
 #navbar1 a {
@@ -78,21 +79,15 @@ body {
     color: white;
 }
   
-.content {
-    padding: 16px;
-}
-  
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%
-}
-  
-.sticky + .content {
-    padding-top: 60px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+
 }
 /* END: Navbar*/
+
 
 /* START: Social Media Sidenav*/
 
@@ -100,6 +95,7 @@ body {
     position: fixed;
     left: -5px;
     top: 39%;
+    z-index: 99;
 }
 
 #SMsidenav a {
@@ -125,20 +121,21 @@ body {
 
 #T {
     top: 80px;
-    background-color: #55acee; /* Blue */
+    background-color: #55acee;
 }
 
 #L {
     top: 140px;
-    background-color: #0077B5; /* Red */
+    background-color: #0077B5;
 }
 
 #X {
     top: 200px;
-    background-color: #126567 /* Light Black */
+    background-color: #126567
 }
 
 /* END: Social Media Sidenav*/
+
 
 /* START: Scroll Up Button*/
 
@@ -165,9 +162,11 @@ body {
 
 /* END: Scroll Up Button*/
 
+
 /* START: Map*/
 .card {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    z-index: 0;
 }
 
 #underMap {
