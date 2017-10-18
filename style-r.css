@@ -33,6 +33,8 @@ body {
     overflow: hidden;
     background-color: #333;
     z-index: 99;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
   }
   
 #navbar1 a {
@@ -46,6 +48,7 @@ body {
 #navbar1 a:hover {
     background-color: orange;
     color: white;
+    transition: 1.0s;
 }
 
 #navbar1 #iSmall {
@@ -83,10 +86,17 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-bottom: 50px;
-
 }
 /* END: Navbar*/
+
+
+/* START: First Div for space margin*/
+
+#firstDiv {
+    margin-top: 80px;
+}
+
+/* END: First Div for space margin*/
 
 
 /* START: Social Media Sidenav*/
@@ -94,14 +104,14 @@ body {
 #SMsidenav {
     position: fixed;
     left: -5px;
-    top: 39%;
+    top: 50%;
     z-index: 99;
 }
 
 #SMsidenav a {
     position: absolute; /* Position them relative to the browser window */
     left: -105px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
+    transition: 1.0s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
     width: 130px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
