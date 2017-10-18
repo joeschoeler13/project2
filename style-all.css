@@ -5,6 +5,10 @@ body {
     font-family: Arial;
 }
 
+.fa {
+    font-family: "SIL OSL 1.1";
+}
+
 .a {
     color: white;
 }
@@ -120,6 +124,10 @@ body {
 
 #SMsidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+.table-sidenav {
+    color: white;
 }
 
 #F {
