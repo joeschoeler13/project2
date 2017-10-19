@@ -24,6 +24,42 @@
         </script>
 
         <script src="https://maps.google.com/maps/api/js?key=AIzaSyBwE3STW0hmZZXa50zTOfuDQrgNOlJRJVE" type="text/javascript">
+
+            <style>
+                html {
+                    box-sizing: border-box;
+                }
+                    *, *:before, *:after {
+                        box sizing: inherit;
+                    }
+                    .column {
+                        float: left;
+                        width: 33.3%
+                        margin-bottom: 16px;
+                        padding: 0 8px;
+                    }
+                        @media (max-width: 650px) {
+                            .column {
+                                width: 100%
+                                display: block;
+                            }
+                        }
+                            .card {
+                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                            }
+
+                            .container {
+                                padding: 0 16px;
+                            }
+                            .container::after, .row::after {
+                                content: "";
+                                clear: both;
+                                display: table;
+                            }
+                            .title {
+                                color: grey
+                            }
+                            </style>
         </script>
         
     </head>
@@ -88,8 +124,58 @@
         
                 </p>
 
-                    <img src="hands-coffee-cup-apple.jpg" alt="Business Hand"
-                    style="width:500px;height:600px;">
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                          <img src="Joe.jpg" alt="joe" style="width:100%">
+                              <div class="container">
+                                <h2>Joe</h2>
+                                <p class="title">Founder</p>
+                                <p>Some text that describes Joe</p>
+                                <p>Joe's email</p> 
+                            
+                            </div>
+                    
+                    </div>    
+            
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <img src="jolyn.jpg" alt="jolyn" style="width:100%">
+                        <div class="container">
+                        <h2>Jolyn</h2>  
+                        <p class="title">Creator</p>  
+                        <p>Some text that describes jolyn</p>
+                        <p>jolyn's email</p>
+        
+                            
+                            </div>
+                        
+                        </div>
+                    
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <img src="willa.jpg" alt="willa" style="width:100%">
+                            <div class="container">
+                            <h2>Willa</h2>
+                            <p class="title">Collaborator</p>    
+                            <p>Some text that describes me</p>
+                            <p>my email</p>
+                    
+                                
+                                
+                                </div>
+                            
+                            </div>
+                        
+                        </div>
+                 </div>
+
+                    <img src="/images/hands-coffee-cup-apple.jpg" alt="Business Hand"
+                    style="width:500px;height:500px;">
 
             </div>
         </div>
