@@ -44,8 +44,9 @@ body {
   
   /* Add animation to "page content" */
   .animate-bottom {
-    position: relative;
-    top: 50%;
+    position: fixed;
+    top: 40%;
+    left: 36%;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 8s;
     animation-name: animatebottom;
