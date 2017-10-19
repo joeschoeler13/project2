@@ -5,6 +5,10 @@ body {
     font-family: Arial;
 }
 
+.fa { 
+    font-family: 'FontAwesome' !important; 
+}
+
 .a {
     color: white;
 }
@@ -61,9 +65,6 @@ body {
         float: right;
         display: block;
     }
-}
-
-@media screen and (max-width: 700px) {
     #navbar1.responsive {position: relative;}
     #navbar1.responsive #iSmall {
         position: absolute;
@@ -75,7 +76,8 @@ body {
         display: block;
         text-align: left;
     }
-  }
+}
+
   
 #navbar1 a.active {
     background-color: grey;
@@ -104,7 +106,7 @@ body {
 #SMsidenav {
     position: fixed;
     left: -5px;
-    top: 50%;
+    top: 41%;
     z-index: 99;
 }
 
@@ -113,7 +115,7 @@ body {
     left: -105px; /* Position them outside of the screen */
     transition: 1.0s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
-    width: 130px; /* Set a specific width */
+    width: 155px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 16px; /* Increase font size */
     color: white; /* White text color */
@@ -122,6 +124,10 @@ body {
 
 #SMsidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+.table-sidenav {
+    color: white;
 }
 
 #F {
