@@ -150,6 +150,7 @@
                 </p>
             </div>
             <div style="overflow-x:auto;">
+
                 <!--There is just some content in the table other content gets shown in modal box, when link "more" is clicked
                 Content shown in modal Boxes:                     
                     <th style="width:">Project Name</th>
@@ -164,6 +165,9 @@
                     <th class="cl">Customer location</th>
                     <th class="cs">Customer satisfaction</th>
                 see table structure for table content-->
+                
+                <input type="text" id="searchInput" onkeyup="projectFilter()" placeholder="Search for names, categories, programs, states, industries, locations ...">
+
                 <table id="projects">
                     <tr class="header">
                         <th style="width: 20%">Project Name</th>
@@ -172,42 +176,42 @@
                         <th style="width: 15%">Status</th>
                         <th style="width: 15%">Customer industry</th>
                         <th style="width: 15%">Customer location</th>
-                        <th style="width: 5%">Customer location</th>
+                        <th style="width: 5%">more...</th>
                     </tr>
-                    <tr>
-                        <th class="pn">Project Name</th>
-                        <th class="pc">Category</th>
-                        <th class="pu">Programs used</th>
-                        <th class="st">Status</th>
-                        <th class="ci">Customer industry</th>
-                        <th class="cl">Customer location</th>
+                    <tr class="listing">
+                        <th class="pn">Thor</th>
+                        <th class="pc">Automatization</th>
+                        <th class="pu">MS Excel, <br>VBA programmatics</th>
+                        <th class="st">ongoing</th>
+                        <th class="ci">Retail</th>
+                        <th class="cl">Germany</th>
                         <th class="mb">Link to modal box</th>
                     </tr>
-                    <tr>
-                        <th class="pn">Project Name</th>
-                        <th class="pc">Category</th>
-                        <th class="pu">Programs used</th>
-                        <th class="st">Status</th>
-                        <th class="ci">Customer industry</th>
-                        <th class="cl">Customer location</th>
+                    <tr class="listing">
+                        <th class="pn">Iron Man</th>
+                        <th class="pc">Automatization</th>
+                        <th class="pu">MS Excel, <br>VBA programmatics</th>
+                        <th class="st">finished</th>
+                        <th class="ci">Banking</th>
+                        <th class="cl">Germany</th>
                         <th class="mb">Link to modal box</th>
                     </tr>
-                    <tr>
-                        <th class="pn">Project Name</th>
-                        <th class="pc">Category</th>
-                        <th class="pu">Programs used</th>
-                        <th class="st">Status</th>
-                        <th class="ci">Customer industry</th>
-                        <th class="cl">Customer location</th>
+                    <tr class="listing">
+                        <th class="pn">Hulk</th>
+                        <th class="pc">Web-development</th>
+                        <th class="pu">HTML, <br>JS, <br>CSS</th>
+                        <th class="st">ongoing</th>
+                        <th class="ci">Education</th>
+                        <th class="cl">Canada</th>
                         <th class="mb">Link to modal box</th>
                     </tr>
-                    <tr>
-                        <th class="pn">Project Name</th>
-                        <th class="pc">Category</th>
-                        <th class="pu">Programs used</th>
+                    <tr class="listing">
+                        <th class="pn">Zeus</th>
+                        <th class="pc">Dreaming</th>
+                        <th class="pu">JavaScript</th>
                         <th class="st">Status</th>
-                        <th class="ci">Customer industry</th>
-                        <th class="cl">Customer location</th>
+                        <th class="ci">Banking</th>
+                        <th class="cl">Heaven</th>
                         <th class="mb">Link to modal box</th>
                     </tr>
                 </table>
