@@ -60,17 +60,20 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    #navbar1 a:not(:first-child) {display: none;}
-    #navbar1 #iSmall {
-        float: right;
-        display: block;
-    }
+        #navbar1 a:not(:first-child) {display: none;}
+        #navbar1 #iSmall {
+            float: right;
+            display: block;
+        }
+}
+
+@media screen and (max-width: 700px) {
     #navbar1.responsive {position: relative;}
     #navbar1.responsive #iSmall {
         position: absolute;
         right: 15;
         top: 0;
-    }
+        }
     #navbar1.responsive a {
         float: none;
         display: block;
