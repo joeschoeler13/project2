@@ -5,8 +5,8 @@ body {
     font-family: Arial;
 }
 
-.fa {
-    font-family: "SIL OSL 1.1";
+.fa { 
+    font-family: 'FontAwesome' !important; 
 }
 
 .a {
