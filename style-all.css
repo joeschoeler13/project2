@@ -180,3 +180,20 @@ body {
 }
 
 /* END: Scroll Up Button*/
+
+/* START: Footer*/
+
+footer {
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+    background-color: #333;
+    opacity: 0.9;
+    color: white;
+}
+
+.footer {
+    padding: 1%;
+}
+
+/* END: Footer*/

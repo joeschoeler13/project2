@@ -28,6 +28,10 @@
     text-decoration: none;
 }
 
+.listing {
+    cursor: pointer;
+}
+
 #projects th, #projects td {
     text-align: left; /* Left-align text */
     padding: 12px; /* Add padding */
