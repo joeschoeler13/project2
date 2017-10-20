@@ -1,6 +1,8 @@
 <html>
     <head>
 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"></link>
@@ -12,8 +14,6 @@
         <link rel="stylesheet" href="style-r.css"></link>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
 
         <script type="text/javascript" src="java-all.js">
         </script>
@@ -167,53 +167,56 @@
                 see table structure for table content-->
                 
                 <input type="text" id="searchInput" onkeyup="projectFilter()" placeholder="Search for names, categories, programs, states, industries, locations ...">
-
                 <table id="projects">
-                    <tr class="header">
-                        <th style="width: 20%">Project Name</th>
-                        <th style="width: 15%">Category</th>
-                        <th style="width: 15%">Programs used</th>
-                        <th style="width: 15%">Status</th>
-                        <th style="width: 15%">Customer industry</th>
-                        <th style="width: 15%">Customer location</th>
-                        <th style="width: 5%">more...</th>
-                    </tr>
-                    <tr class="listing">
-                        <td class="pn">Thor</th>
-                        <td class="pc">Automatization</th>
-                        <td class="pu">MS Excel, <br>VBA programmatics</th>
-                        <td class="st">ongoing</th>
-                        <td class="ci">Retail</th>
-                        <td class="cl">Germany</th>
-                        <td class="mb">Link to modal box</th>
-                    </tr>
-                    <tr class="listing">
-                        <td class="pn">Iron Man</th>
-                        <td class="pc">Automatization</th>
-                        <td class="pu">MS Excel, <br>VBA programmatics</th>
-                        <td class="st">finished</th>
-                        <td class="ci">Banking</th>
-                        <td class="cl">Germany</th>
-                        <td class="mb">Link to modal box</th>
-                    </tr>
-                    <tr class="listing">
-                        <td class="pn">Hulk</th>
-                        <td class="pc">Web-development</th>
-                        <td class="pu">HTML, <br>JS, <br>CSS</th>
-                        <td class="st">ongoing</th>
-                        <td class="ci">Education</th>
-                        <td class="cl">Canada</th>
-                        <td class="mb">Link to modal box</th>
-                    </tr>
-                    <tr class="listing">
-                        <td class="pn">Zeus</th>
-                        <td class="pc">Dreaming</th>
-                        <td class="pu">JavaScript</th>
-                        <td class="st">Status</th>
-                        <td class="ci">Banking</th>
-                        <td class="cl">Heaven</th>
-                        <td class="mb">Link to modal box</th>
-                    </tr>
+                    <thead>
+                        <tr class="header">
+                            <th style="width: 20%">Project Name</th>
+                            <th style="width: 15%">Category</th>
+                            <th style="width: 15%">Programs used</th>
+                            <th style="width: 15%">Status</th>
+                            <th style="width: 15%">Customer industry</th>
+                            <th style="width: 15%">Customer location</th>
+                            <th style="width: 5%">more...</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="listing">
+                            <td class="pn">Thor</th>
+                            <td class="pc">Automatization</th>
+                            <td class="pu">MS Excel, <br>VBA programmatics</th>
+                            <td class="st">ongoing</th>
+                            <td class="ci">Retail</th>
+                            <td class="cl">Germany</th>
+                            <td class="mb">Link to modal box</th>
+                        </tr>
+                        <tr class="listing">
+                            <td class="pn">Iron Man</th>
+                            <td class="pc">Automatization</th>
+                            <td class="pu">MS Excel, <br>VBA programmatics</th>
+                            <td class="st">finished</th>
+                            <td class="ci">Banking</th>
+                            <td class="cl">Germany</th>
+                            <td class="mb">Link to modal box</th>
+                        </tr>
+                        <tr class="listing">
+                            <td class="pn">Hulk</th>
+                            <td class="pc">Web-development</th>
+                            <td class="pu">HTML, <br>JS, <br>CSS</th>
+                            <td class="st">ongoing</th>
+                            <td class="ci">Education</th>
+                            <td class="cl">Canada</th>
+                            <td class="mb">Link to modal box</th>
+                        </tr>
+                        <tr class="listing">
+                            <td class="pn">Zeus</th>
+                            <td class="pc">Dreaming</th>
+                            <td class="pu">JavaScript</th>
+                            <td class="st">Status</th>
+                            <td class="ci">Banking</th>
+                            <td class="cl">Heaven</th>
+                            <td class="mb">Link to modal box</th>
+                        </tr>
+                    </tbody>                    
                 </table>
             </div>
         </div>
