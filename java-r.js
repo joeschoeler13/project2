@@ -86,3 +86,47 @@ function projectFilter() {
 }
 
 //END: Filter project table
+
+//********* MODALS **********
+
+//START: Show Mod1
+var modal1 = document.getElementById("id01")
+
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod1
+
+//START: Show Mod2
+var modal2 = document.getElementById("id02")
+
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod2
+
+//START: Show Mod3
+var modal3 = document.getElementById("id03")
+
+window.onclick = function(event) {
+    if (event.target == modal3) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod3
+
+//START: Show Mod4
+var modal4 = document.getElementById("id04")
+
+window.onclick = function(event) {
+    if (event.target == modal4) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod4
+
+//********* MODALS **********

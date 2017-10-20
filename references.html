@@ -172,49 +172,44 @@
                         <tr class="header">
                             <th style="width: 20%">Project Name</th>
                             <th style="width: 15%">Category</th>
-                            <th style="width: 15%">Programs used</th>
+                            <th style="width: 20%">Programs used</th>
                             <th style="width: 15%">Status</th>
                             <th style="width: 15%">Customer industry</th>
                             <th style="width: 15%">Customer location</th>
-                            <th style="width: 5%">more...</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="listing">
+                        <tr class="listing" onclick="document.getElementById('id01').style.display='block'">
                             <td class="pn">Thor</th>
                             <td class="pc">Automatization</th>
                             <td class="pu">MS Excel, <br>VBA programmatics</th>
                             <td class="st">ongoing</th>
                             <td class="ci">Retail</th>
                             <td class="cl">Germany</th>
-                            <td class="mb">Link to modal box</th>
                         </tr>
-                        <tr class="listing">
+                        <tr class="listing" onclick="document.getElementById('id02').style.display='block'">
                             <td class="pn">Iron Man</th>
                             <td class="pc">Automatization</th>
                             <td class="pu">MS Excel, <br>VBA programmatics</th>
                             <td class="st">finished</th>
                             <td class="ci">Banking</th>
                             <td class="cl">Germany</th>
-                            <td class="mb">Link to modal box</th>
                         </tr>
-                        <tr class="listing">
+                        <tr class="listing" onclick="document.getElementById('id03').style.display='block'">
                             <td class="pn">Hulk</th>
                             <td class="pc">Web-development</th>
                             <td class="pu">HTML, <br>JS, <br>CSS</th>
                             <td class="st">ongoing</th>
                             <td class="ci">Education</th>
                             <td class="cl">Canada</th>
-                            <td class="mb">Link to modal box</th>
                         </tr>
-                        <tr class="listing">
+                        <tr class="listing" onclick="document.getElementById('id04').style.display='block'">
                             <td class="pn">Zeus</th>
                             <td class="pc">Dreaming</th>
                             <td class="pu">JavaScript</th>
                             <td class="st">Status</th>
                             <td class="ci">Banking</th>
                             <td class="cl">Heaven</th>
-                            <td class="mb">Link to modal box</th>
                         </tr>
                     </tbody>                    
                 </table>
@@ -225,8 +220,162 @@
         <!-- Start of Modal boxes -->
 
             <!-- Start of Modal 1 -->
-
+            <div id="id01" class="modal">
+                <div class="modcontent">
+                    <div class="modhead text-center">
+                        <span class="close" onclick="document.getElementById('id01').style.display='none'">&times;</span>
+                        <h1 class="modtitle"><br> Project Thor</h1>
+                        <p class="modsubtitle">started in June 2017 ongoing</p>
+                    </div>
+                    <div class="modbody">
+                        <div class="custinfo text-center">
+                            <p>
+                                rameder. Anhaengerkupplungen und Autoteile GmbH <br>
+                                Retailer for car parts, Germany
+                            </p>
+                        </div>
+                        <div class="proinfo text-center">
+                            <p>Automatization of Reporting Tools</p>
+                            <p>
+                                The main part of the job was about the automatization of an already existing reporting tool for daily management reports.
+                                Our service was to analyze the current process of how the reports were produced, to locate efficiency lags and 
+                                to automatize the efficiently structured process of generating the reports via Microft Excel and VBA programmatics. 
+                                The project is ongoing in that we currently execute these reports daily and work on the further development of an even more efficient process.
+                            </p>
+                        </div>
+                        <div class="satisf text-center">
+                            <p>Customer Satisfaction</p>
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
             <!-- End of Modal 1 -->
+
+            <!-- Start of Modal 2 -->
+            <div id="id02" class="modal">
+                    <div class="modcontent">
+                        <div class="modhead text-center">
+                            <span class="close" onclick="document.getElementById('id02').style.display='none'">&times;</span>
+                            <h1 class="modtitle"><br> Project Thor</h1>
+                            <p class="modsubtitle">started in June 2017 ongoing</p>
+                        </div>
+                        <div class="modbody">
+                            <div class="custinfo text-center">
+                                <p>
+                                    rameder. Anhaengerkupplungen und Autoteile GmbH <br>
+                                    Retailer for car parts, Germany
+                                </p>
+                            </div>
+                            <div class="proinfo text-center">
+                                <p>Automatization of Reporting Tools</p>
+                                <p>
+                                    The main part of the job was about the automatization of an already existing reporting tool for daily management reports.
+                                    Our service was to analyze the current process of how the reports were produced, to locate efficiency lags and 
+                                    to automatize the efficiently structured process of generating the reports via Microft Excel and VBA programmatics. 
+                                    The project is ongoing in that we currently execute these reports daily and work on the further development of an even more efficient process.
+                                </p>
+                            </div>
+                            <div class="satisf text-center">
+                                <p>Customer Satisfaction</p>
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- End of Modal 2 -->
+
+                <!-- Start of Modal 3 -->
+                <div id="id03" class="modal">
+                    <div class="modcontent">
+                        <div class="modhead text-center">
+                            <span class="close" onclick="document.getElementById('id03').style.display='none'">&times;</span>
+                            <h1 class="modtitle"><br> Project Thor</h1>
+                            <p class="modsubtitle">started in June 2017 ongoing</p>
+                        </div>
+                        <div class="modbody">
+                            <div class="custinfo text-center">
+                                <p>
+                                    rameder. Anhaengerkupplungen und Autoteile GmbH <br>
+                                    Retailer for car parts, Germany
+                                </p>
+                            </div>
+                            <div class="proinfo text-center">
+                                <p>Automatization of Reporting Tools</p>
+                                <p>
+                                    The main part of the job was about the automatization of an already existing reporting tool for daily management reports.
+                                    Our service was to analyze the current process of how the reports were produced, to locate efficiency lags and 
+                                    to automatize the efficiently structured process of generating the reports via Microft Excel and VBA programmatics. 
+                                    The project is ongoing in that we currently execute these reports daily and work on the further development of an even more efficient process.
+                                </p>
+                            </div>
+                            <div class="satisf text-center">
+                                <p>Customer Satisfaction</p>
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- End of Modal 3 -->
+
+                <!-- Start of Modal 4 -->
+                <div id="id04" class="modal">
+                    <div class="modcontent">
+                        <div class="modhead text-center">
+                            <span class="close" onclick="document.getElementById('id04').style.display='none'">&times;</span>
+                            <h1 class="modtitle"><br> Project Thor</h1>
+                            <p class="modsubtitle">started in June 2017 ongoing</p>
+                        </div>
+                        <div class="modbody">
+                            <div class="custinfo text-center">
+                                <p>
+                                    rameder. Anhaengerkupplungen und Autoteile GmbH <br>
+                                    Retailer for car parts, Germany
+                                </p>
+                            </div>
+                            <div class="proinfo text-center">
+                                <p>Automatization of Reporting Tools</p>
+                                <p>
+                                    The main part of the job was about the automatization of an already existing reporting tool for daily management reports.
+                                    Our service was to analyze the current process of how the reports were produced, to locate efficiency lags and 
+                                    to automatize the efficiently structured process of generating the reports via Microft Excel and VBA programmatics. 
+                                    The project is ongoing in that we currently execute these reports daily and work on the further development of an even more efficient process.
+                                </p>
+                            </div>
+                            <div class="satisf text-center">
+                                <p>Customer Satisfaction</p>
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- End of Modal 4 -->
+
+                
 
         <!-- End of Modal boxes -->
     </body>
