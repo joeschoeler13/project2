@@ -39,26 +39,16 @@
 
 .visionleft {
     float: left; 
-    width: 30%; 
-}
-
-.visionmiddle {
-    float: left; 
-    width: 40%; 
+    width: 50%; 
 }
 
 .visionright {
     float: left; 
-    width: 30%; 
+    width: 50%; 
 }
 
 @media (max-width: 700px) {
     .visionleft {
-        width: 100%;
-        display: block; 
-    }
-    
-    .visionmiddle {
         width: 100%;
         display: block; 
     }
