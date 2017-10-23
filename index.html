@@ -24,6 +24,42 @@
         </script>
 
         <script src="https://maps.google.com/maps/api/js?key=AIzaSyBwE3STW0hmZZXa50zTOfuDQrgNOlJRJVE" type="text/javascript">
+
+            <style>
+                html {
+                    box-sizing: border-box;
+                }
+                    *, *:before, *:after {
+                        box sizing: inherit;
+                    }
+                    .column {
+                        float: left;
+                        width: 10%%
+                        margin-bottom: 16px;
+                        padding: 0 8px;
+                    }
+                        @media (max-width: 250px) {
+                            .column {
+                                width: 10%%
+                                display: block;
+                            }
+                        }
+                            .card {
+                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                            }
+
+                            .container {
+                                padding: 0 16px;
+                            }
+                            .container::after, .row::after {
+                                content: "";
+                                clear: both;
+                                display: table;
+                            }
+                            .title {
+                                color: grey
+                            }
+                            </style>
         </script>
         
     </head>
@@ -100,10 +136,86 @@
 
         <div class="container text-center" id="firstDiv">
             <div>
-                <h1>Who? What? Where?</h1>
+                <h1>Who Are We?</h1>
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>ARCSolutions is a small independent business focusing on outsourcing
+                    office work to students seeking professional experience. We take care of simple,
+                    everyday challenges to free up your time to the more important things about 
+                    running your business. From setting up presentations to statistical 
+                    analysis, we are your solution to efficient professional practice.
+                    We are made up of a small group of university students, each with a different
+                    academic background, interested in refining our skills and gaining
+                    valuable knowledge we can apply to feature endeavors. We are based in Canada,
+                    in the province of British Columbia at the University of Victoria, but we reach
+                    to all corners of the world. Help us expand our reach to you today!   
+        
+                </p>
+
+                <img src="file:///Users/willahladun/Desktop/PD%20in%20the%20Arts/Pictures/hands-coffee-cup-apple.jpg" alt="Business Hand"
+                    style="width:900px;height:500px;">
+
+                    <h1>Meet the Team!</h1>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                          <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t34.0-12/22809913_1572709269452441_390516100_n.jpg?oh=feea771caee5e8e9cd4d76f0b35ff4a4&oe=59F06F41" alt="joe" style="width:50%">
+                              <div class="container">
+                                <h2>Joe Schöler</h2>
+                                <p class="title">Founder</p>
+                                <p>Joe is a third year business student, majoring in management, philosophy,
+                                   and economics. He is fluent on Microsoft Excel, VBA Programmatics,
+                                   and has over a year of working experience in the marketing department
+                                   for a German payment service provider. His diverse expertise make him 
+                                   the go to man for anything your business may need.</p>
+                                <p>joeschoeler@uvic.ca</p> 
+                            
+                            </div>
+                    
+                    </div>    
+            
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t35.0-12/22711794_10154995215135222_1149915774_o.jpg?oh=6b4281e37cd8e7ad22988b9b69396349&oe=59EF47D9" alt="jolyn" style="width:50%">
+                        <div class="container">
+                        <h2>Jolyn Ng</h2>  
+                        <p class="title">Founder</p>  
+                        <p>Jolyn is a fourth year business student majoring in marketing.</p>
+                        <p>jolynngxy@gmail.com</p>
+        
+                            
+                            </div>
+                        
+                        </div>
+                    
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <img src="file:///Users/willahladun/Desktop/PD%20in%20the%20Arts/Headshot.jpg" alt="willa" style="width:50%">
+                            <div class="container">
+                            <h2>Willa Hladun</h2>
+                            <p class="title">Founder</p>    
+                            <p>Willa is a second year psychology student, with experience in academic
+                                research and writing. Having a long history in the theatrical arts,
+                                presentation work is second nature, and she is happy to 
+                                provide her creativity to make any project stand out.</p>
+                            <p>willa.hladun@gmail.com</p>
+                    
+                                
+                                
+                                </div>
+                            
+                            </div>
+                        
+                        </div>
+                 </div>
+
+                    
+
             </div>
         </div>
 
