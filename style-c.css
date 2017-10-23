@@ -18,3 +18,85 @@
     padding: 10px;
 }
 /* END: Page dividers */
+
+
+/* START: E-mail-form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#submitform {
+    background-color: rgba(26, 26, 26, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#submitform:hover {
+    transition: 1.0s;
+    background-color: orange;
+}
+
+.container-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* END: E-mail-form */
+
+/* START: Chatbox*/
+.chat {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    text-align: right;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+
+#btnchat {
+    background-color: rgba(26, 26, 26, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#chatbtn:hover {
+    transition: 1.0s;
+    background-color: orange;
+}
+
+.chatcolumn {
+    float: left;
+}
+#chatinput {
+    width: 80%;
+}
+#chatbtn {
+    width: 20%;
+}
+/* END: Chatbox*/

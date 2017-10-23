@@ -1,28 +1,24 @@
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box sizing: inherit;
-}
+/* START: Meet the team */
+
 .column {
     float: left;
-    width: 10%;
+    width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
-@media (max-width: 250px) {
+@media (max-width: 700px) {
     .column {
-        width: 10%;
+        width: 100%;
         display: block;
     }
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.container {
+.container-card {
     padding: 0 16px;
 }
-.container::after, .row::after {
+.container-card::after, .row::after {
     content: "";
     clear: both;
     display: table;
@@ -30,3 +26,36 @@ html {
 .title {
     color: grey;
 }
+
+.team {
+    width: 100%;
+}
+
+/* END: Meet the team */
+
+
+/* START: Mission/Vision */
+
+.visionleft {
+    float: left; 
+    width: 50%; 
+}
+
+.visionright {
+    float: left; 
+    width: 50%; 
+}
+
+@media (max-width: 700px) {
+    .visionleft {
+        width: 100%;
+        display: block; 
+    }
+    
+    .visionright {
+        width: 100%;
+        display: block; 
+    }
+}
+
+/* START: Mission/Vision */
