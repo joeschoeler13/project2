@@ -6,7 +6,7 @@
     padding: 10px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .column {
         width: 100%;
         display: block;
@@ -53,18 +53,17 @@ input[type=text], select, textarea {
 
 /* START: Chatbox*/
 .chatbody {
-    height: 92%;
+    height: 84%;
     overflow: auto;
 }
 
 .chat {
-    background-color: #f1f1f1;
+    background-color: white;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
 }
 .darker {
-    border-color: #ccc;
     background-color: #ddd;
     text-align: right;
 }
@@ -84,7 +83,7 @@ input[type=text], select, textarea {
     color: #999;
 }
 
-#btnchat {
+#chatbtn {
     background-color: rgba(26, 26, 26, 0.8);
     color: white;
     padding: 12px 20px;
@@ -95,15 +94,5 @@ input[type=text], select, textarea {
 #chatbtn:hover {
     transition: 1.0s;
     background-color: orange;
-}
-
-.chatcolumn {
-    float: left;
-}
-#chatinput {
-    width: 80%;
-}
-#chatbtn {
-    width: 20%;
 }
 /* END: Chatbox*/
