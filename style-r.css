@@ -54,7 +54,7 @@
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
+    display: none; /* Hidden by default */ 
     position: fixed; /* Stay in place */
     z-index: 150; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -78,14 +78,14 @@
 
 /* The Close Button */
 .close {
-    color: rgb(180, 180, 180);
+    color: white;
     float: right;
     font-size: 28px;
 }
 
 .close:hover,
 .close:focus {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     cursor: pointer;
 }
