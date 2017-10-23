@@ -1,3 +1,5 @@
+/* START: Meet the team */
+
 .column {
     float: left;
     width: 33.3%;
@@ -25,7 +27,46 @@
     color: grey;
 }
 
-img {
+.team {
     width: 100%;
     height: 40%;
 }
+
+/* END: Meet the team */
+
+
+/* START: Mission/Vision */
+
+.visionleft {
+    float: left; 
+    width: 30%; 
+}
+
+.visionmiddle {
+    float: left; 
+    width: 40%; 
+}
+
+.visionright {
+    float: left; 
+    width: 30%; 
+}
+
+@media (max-width: 700px) {
+    .visionleft {
+        width: 100%;
+        display: block; 
+    }
+    
+    .visionmiddle {
+        width: 100%;
+        display: block; 
+    }
+    
+    .visionright {
+        width: 100%;
+        display: block; 
+    }
+}
+
+/* START: Mission/Vision */
