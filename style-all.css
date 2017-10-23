@@ -19,12 +19,12 @@ body {
 .jumbotron { 
     height: 35%;
     margin: 0px;
+    background-image: url(https://raw.githubusercontent.com/joeschoeler13/project2/master/pictures/pic-index.jpg);
     background-position-x: 0px;
-    background-position-y: 0px;
-    background-image: url();
+    background-position-y: 50%;
     background-size: cover;
     color: white;
-    text-shadow: white 50.0em 50.0em 50.0em;
+    text-shadow: white 100.0em 100.0em 100.0em;
     display: flex;
     align-items: flex-end;
 }
