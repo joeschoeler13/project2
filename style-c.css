@@ -48,3 +48,32 @@ input[type=text], select, textarea {
     padding: 20px;
 }
 /* END: E-mail-form */
+
+/* START: Chatbox*/
+.chat {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    text-align: right;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+/* END: Chatbox*/
