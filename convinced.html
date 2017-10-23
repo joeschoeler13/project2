@@ -138,7 +138,36 @@
                                 <h1>Write an e-mail</h1>
                             </div>
                             <div class="colbody">
-                                E-Mail form
+                                <div class="container-form">
+                                    <form action="/action_page.php">
+                                        <fieldset>
+                                            <legend>Personal information:</legend>
+
+                                            <label for="fname">First Name</label>
+                                            <input type="text" id="fname" name="firstname" placeholder="...">
+                                                
+                                            <label for="lname">Last Name</label>
+                                            <input type="text" id="lname" name="lastname" placeholder="...">
+
+                                            <label for="tname">Title</label>
+                                            <input type="text" id="tname" name="titlename" placeholder="...">
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>Your request:</legend>
+
+                                            <label for="reason">Reason of contacting</label>
+                                                <select id="reason" name="reason">
+                                                    <option value="project">Request for a project</option>
+                                                    <option value="carreer">Carreer opportunities</option>
+                                                    <option value="other">Other kinds of requests</option>
+                                                </select>
+                                                
+                                            <label for="subject">Subject</label>
+                                            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+                                        </fieldset> 
+                                    </form>
+                                    <button id="submitform" onclick="submit">Submit</button>
+                                </div>
                             </div>
                         </div>
                     </div>
