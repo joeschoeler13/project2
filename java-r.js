@@ -1,12 +1,12 @@
 //START: Sticky navbar section
 
-var navbar = $(".navbar");
+var navbar = document.getElementById("navbar1");
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > 370) {
-        navbar.addClass("sticky");
+        navbar.className += " sticky";
     } else {
-        navbar.removeClass("sticky");
+        navbar.className = "navbar";
     }
 })
 
