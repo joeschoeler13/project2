@@ -1,5 +1,9 @@
 /* START: Meet the team */
 
+.row {
+    margin-top: 16px;
+}
+
 .column {
     float: left;
     width: 33.3%;
