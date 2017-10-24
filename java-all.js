@@ -1,7 +1,25 @@
+//START: Sticky navbar section
+
+$(window).scroll(function() {
+    var navbar = document.getElementById("navbar1");
+    if ($(this).scrollTop() > 370) {
+        navbar.className += " sticky";
+    } else {
+        navbar.className = "navbar";
+    }
+})
+
+//END: Sticky navbar section
+
+
 //START: Responsive navbar section
 
 function respNavbar() {
     var x = document.getElementById("navbar1");
+    
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+
     if (x.className === "navbar") {
         x.className += " responsive";
     } else {
