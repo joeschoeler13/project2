@@ -2,6 +2,10 @@
 
 function respNavbar() {
     var x = document.getElementById("navbar1");
+    
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+
     if (x.className === "navbar") {
         x.className += " responsive";
     } else {
