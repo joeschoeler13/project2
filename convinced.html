@@ -1,10 +1,14 @@
 <html>
     <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
-            
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"></link>
-            
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
         <link rel="stylesheet" href="style-all.css"></link>
@@ -13,12 +17,13 @@
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-
         <script type="text/javascript" src="java-all.js">
         </script>
 
         <script type="text/javascript" src="java-c.js">
+        </script>
+
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyBwE3STW0hmZZXa50zTOfuDQrgNOlJRJVE" type="text/javascript">
         </script>
         
     </head>
@@ -36,11 +41,12 @@
 
         <div class="navbar" id="navbar1">
             <div class="container">
+                <a href="javascript:void(0);" id="menu">Menu</a>
                 <a href="https://joeschoeler13.github.io/project2/index.html">About Us</a>
                 <a href="https://joeschoeler13.github.io/project2/references.html">Our Customers</a>
                 <a href="https://joeschoeler13.github.io/project2/process.html">A Project Process</a>
                 <a class="active" href="https://joeschoeler13.github.io/project2/convinced.html">Become a Customer</a>
-                <a href="javascript:void(0);" class="icon" id="iSmall" onclick="myFunction()">&#9776;</a>
+                <a href="javascript:void(0);" class="icon" id="iSmall" onclick="respNavbar()">&#9776;</a>
             </div>
         </div>
 
@@ -87,22 +93,191 @@
 
         <!-- Start of Scroll Up Button -->
 
-        <button onclick="scrollToTop()" id="ScrollUpButton" title="Go to top">&#x25B2</button>
+        <button onclick="scrollToTop()" id="ScrollUpButton" title="Go to top">&#x25B2;</button>
 
         <!-- End of Scroll Up Button -->
 
-        <!-- Start of Explanation -->
+
+        <!-- Start of Page Explanation -->
 
         <div class="container text-center" id="firstDiv">
-            <div>
-                <h1>Who? What? Where?</h1>
+                <div>
+                    <h1>Communication is King</h1>
+                </div>
+                <div>
+                    <p>
+                        We convinced you and you would like to send us a request for a project? <br>
+                        You have any questions or you would just like to talk to us? <br>
+                        Feel free to chat with us or send us an e-mail.
+                    </p>
+                </div>
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+        <!-- Start of page Explanation -->
+
+        <hr>
+
+        <!-- Start of page divider -->
+
+        <div class="container" id="divider">
+            <div class="row">
+                <!-- Start of Chatbot -->
+                <div class="column chatcolumn">
+                    <div class="card">
+                        <div class="colheader text-center">
+                            <h1>Chat with us</h1>
+                        </div>
+                        <div class="colbody">
+                            <div class="chatbody">
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="chat darker">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="chatinput">
+                                <input type="text" placeholder="Type in your message ..." /> 
+                                <button id="chatbtn" onclick="sendchat">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Chatbot -->
+                <!-- Start of E-mail-Form -->
+                <div class="column">
+                    <div class="card">
+                        <div class="colheader text-center">
+                            <h1>Write an e-mail</h1>
+                        </div>
+                        <div class="colbody">
+                            <div class="container-form">
+                                <form action="/action_page.php">
+                                    <fieldset>
+                                        <legend>Personal information:</legend>
+
+                                        <label for="fname">First Name</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="...">
+                                                
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" id="lname" name="lastname" placeholder="...">
+
+                                        <label for="tname">Title</label>
+                                        <input type="text" id="tname" name="titlename" placeholder="...">
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Your request:</legend>
+
+                                        <label for="reason">Reason of contacting</label>
+                                            <select id="reason" name="reason">
+                                                <option value="project">Request for a project</option>
+                                                <option value="carreer">Carreer opportunities</option>
+                                                <option value="other">Other kinds of requests</option>
+                                            </select>
+                                                
+                                            <label for="subject">Subject</label>
+                                            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+                                        </fieldset> 
+                                    </form>
+                                    <button id="submitform" onclick="submitform()">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of E-mail-Form -->
             </div>
         </div>
 
-        <!-- End of Explanation -->
+        <!-- End of page divider -->
+
+        <!-- Start of Footer -->
+
+        <footer>
+            <div class="footer text-right">
+                &copy; Copyright 2017 ARCSolutions
+            </div>
+        </footer>
+        
+        <!-- End of Footer -->
 
     </body>
 </html>

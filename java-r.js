@@ -1,18 +1,3 @@
-//START: Sticky navbar section
-
-var navbar = $(".navbar");
-
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 370) {
-        navbar.addClass("sticky");
-    } else {
-        navbar.removeClass("sticky");
-    }
-})
-
-//END: Sticky navbar section
-
-
 //START: map and locations
 
 var locations = [
@@ -61,3 +46,72 @@ for (i = 0; i < locations.length; i++) {
 }
 
 //END: map and locations
+
+
+//START: Filter project table
+
+function projectFilter() {
+    
+    var input = document.getElementById("searchInput");
+    var filter = input.value.toUpperCase();
+    var table = document.getElementById("projects");
+    var tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (var i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+            if (td.textContent.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        } 
+    }
+}
+
+//END: Filter project table
+
+//********* MODALS **********
+
+//START: Show Mod1
+var modal1 = document.getElementById("id01")
+
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod1
+
+//START: Show Mod2
+var modal2 = document.getElementById("id02")
+
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod2
+
+//START: Show Mod3
+var modal3 = document.getElementById("id03")
+
+window.onclick = function(event) {
+    if (event.target == modal3) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod3
+
+//START: Show Mod4
+var modal4 = document.getElementById("id04")
+
+window.onclick = function(event) {
+    if (event.target == modal4) {
+        modal.style.display = "none";
+    }
+}
+//END: Show Mod4
+
+//********* MODALS **********
